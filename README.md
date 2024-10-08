@@ -2,8 +2,10 @@
 a phishing tool to facebook, just used for Ethical purposes
 
 <p align="left">
-  <img src="https://i.postimg.cc/nhZr76vX/DALL-E-2024-10-05-11-07-32-A-dark-and-eerie-banner-featuring-the-silhouette-of-a-man-with-glowing.webp" width="35%" height="100%" align="">
+  <img src="https://i.postimg.cc/nhZr76vX/DALL-E-2024-10-05-11-07-32-A-dark-and-eerie-banner-featuring-the-silhouette-of-a-man-with-glowing.webp" width="75%" height="100%" align="">
 </p>
+
+the proyect its not complete, just wait for more updates!
 
 # INSTALATION:
 just copy the script using git
