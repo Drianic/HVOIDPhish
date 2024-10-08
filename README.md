@@ -14,8 +14,17 @@ git clone https://github.com/Drianic/HVOIDPhish
 and install the Flask librery of python
 
 ```sh
-pip install Flask
+./install.sh
 ```
+or
+```sh
+bash install.sh
+```
+The file may need execute permissions, please do it with chmod
+```sh
+chmod +x install.sh
+```
+
 The program creates a .txt file, this file contains the data entered by the "victim"
 
 # WARNING
